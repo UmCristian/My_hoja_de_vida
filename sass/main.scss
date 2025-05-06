@@ -1,0 +1,196 @@
+@use "sass:color";
+
+$bg-color: #0d1117;
+$ascii-color: #00ffe0;
+$text-color: #c9d1d9;
+$accent: #1f6feb;
+
+body {
+  background-color: $bg-color;
+  color: $text-color;
+  font-family: 'Share Tech Mono', monospace;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+#ascii-bg {
+  text-align: center;
+  color: $ascii-color;
+  opacity: 0.12;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  padding: 40px 10px;
+  user-select: none;
+  white-space: pre-wrap;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $bg-color;
+  z-index: 10;
+  border-bottom: 1px solid #222;
+  padding: 10px 0;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin: 0 15px;
+
+      a {
+        color: $ascii-color;
+        text-decoration: none;
+        font-size: 0.95rem;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: color.adjust($ascii-color, $lightness: 10%);
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  margin-top: 70px;
+  text-align: center;
+  padding: 80px 20px 40px;
+  background-color: $bg-color;
+
+  .type {
+    font-size: 2.4rem;
+    color: $ascii-color;
+  }
+
+  .subtitle {
+    color: color.adjust($text-color, $lightness: 10%);
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+
+  h2 {
+    color: $accent;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed $accent;
+    padding-bottom: 10px;
+  }
+
+  .section-content {
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,255,255,0.08);
+  }
+
+  &.alt {
+    background-color: #161b22;
+  }
+}
+
+.skills li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: color.adjust($text-color, $lightness: 5%);
+}
+
+.proyecto {
+  margin-bottom: 30px;
+
+  h3 {
+    color: $ascii-color;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    color: $text-color;
+  }
+
+  .btn {
+    background: none;
+    border: 1px solid $ascii-color;
+    color: $ascii-color;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: $ascii-color;
+      color: $bg-color;
+    }
+  }
+}
+
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.badge-card {
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 6px rgba(0,255,255,0.06);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0,255,255,0.1);
+  }
+
+  img {
+    max-width: 100px;
+    margin-bottom: 10px;
+    filter: grayscale(100%) contrast(110%);
+  }
+
+  h3 {
+    color: $ascii-color;
+    font-size: 1rem;
+    margin: 10px 0 5px;
+  }
+
+  p {
+    font-size: 0.85rem;
+    color: color.adjust($text-color, $lightness: 10%);
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+  background-color: $bg-color;
+  border-top: 1px solid #222;
+  color: #666;
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
