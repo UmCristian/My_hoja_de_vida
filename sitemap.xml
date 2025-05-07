@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://umcristian.github.io/My_hoja_de_vida/</loc>
+    <loc>https://www.cristiansalazar.tech/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://umcristian.github.io/My_hoja_de_vida/#proyectos</loc>
+    <loc>https://www.cristiansalazar.tech/#proyectos</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://umcristian.github.io/My_hoja_de_vida/#habilidades</loc>
+    <loc>https://www.cristiansalazar.tech/#habilidades</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://umcristian.github.io/My_hoja_de_vida/#certificaciones</loc>
+    <loc>https://www.cristiansalazar.tech/#certificaciones</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://umcristian.github.io/My_hoja_de_vida/#contacto</loc>
+    <loc>https://www.cristiansalazar.tech/#contacto</loc>
     <priority>0.6</priority>
   </url>
 </urlset>
