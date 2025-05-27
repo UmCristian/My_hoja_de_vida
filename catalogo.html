@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
+  <a href="index.html" class="btn-return">&lt; Volver</a>
   <canvas id="matrix-bg"></canvas>
   <div class="blur-bg"></div>
   <main class="section alt" itemscope itemtype="https://schema.org/Store">
@@ -96,6 +97,26 @@
 
   </main>
   <script src="js/main.js"></script>  <style>
+
+    .btn-return {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-family: 'Share Tech Mono', monospace;
+  background-color: transparent;
+  color: #00ffe0;
+  border: 1px solid #00ffe0;
+  padding: 6px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 100;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-return:hover {
+  background-color: #00ffe0;
+  color: #12161d;
+}
     .product-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
