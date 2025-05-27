@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Técnico de Cristian</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="matrix-bg"></canvas>
+  <div class="blur-bg"></div>
+  <main class="section" itemscope itemtype="https://schema.org/Blog">
+    <h2 style="color: #00ffe0; text-align: center;">Blog Técnico</h2>
+    <div class="section-content highlight-block"><article class="blog-entry" itemscope itemtype="https://schema.org/BlogPosting">
+    <p class="cmd-line">&gt; cat scraping_ético.txt</p>
+    <h3 itemprop="headline">Scraping Ético: una necesidad, no una opción</h3>
+    <time datetime="2025-05-25" itemprop="datePublished">25 de mayo de 2025</time>
+    <div itemprop="articleBody">
+      <p>
+        El scraping es una herramienta poderosa que permite recolectar información estructurada de páginas web. Sin embargo, su uso irresponsable puede desencadenar bloqueos, afectar servidores legítimos o incluso violar políticas de privacidad.
+      </p>
+      <p>
+        Para practicar scraping ético, es vital respetar el archivo <code>robots.txt</code>, identificar el origen de los datos y usarlos con fines informativos o de investigación. Además, es buena práctica incorporar demoras entre solicitudes, evitar sobrecargar servidores y nunca automatizar interacciones con sitios que dependen económicamente de sus visitas.
+      </p>
+      <p>
+        En resumen, la ética en el scraping no se trata de limitación técnica, sino de responsabilidad digital. Es un acto consciente de respeto hacia la infraestructura ajena y los datos de otros.
+      </p>
+    </div>
+  </article>
+
+  <article class="blog-entry" itemscope itemtype="https://schema.org/BlogPosting">
+    <p class="cmd-line">&gt; cat arquitectura_rom.txt</p>
+    <h3 itemprop="headline">Descubriendo la arquitectura oculta de un juego portátil</h3>
+    <time datetime="2025-05-27" itemprop="datePublished">27 de mayo de 2025</time>
+    <div itemprop="articleBody">
+      <p>
+        Durante un proyecto de ingeniería inversa en una ROM clásica, me encontré con estructuras de datos fascinantes: compresión personalizada, referencias cruzadas en memoria, tablas de punteros y un sistema de texto segmentado por bancos.
+      </p>
+      <p>
+        Al no contar con documentación oficial, cada descubrimiento era una mezcla entre arqueología digital y resolución de acertijos binarios. Lo que comenzó como curiosidad por traducir texto, se convirtió en una exploración profunda de cómo los sistemas portátiles gestionaban recursos limitados con creatividad impresionante.
+      </p>
+      <p>
+        El proceso me permitió desarrollar herramientas de análisis propias, mejorar mis habilidades en ensamblador y entender las decisiones de diseño que tomaban los desarrolladores hace décadas. Aunque el proyecto sigue en curso, el aprendizaje ha sido invaluable.
+      </p>
+    </div>
+  </article>
+
+</div>
+
+  </main>
+  <script src="js/main.js"></script>  <style>
+    .blog-entry {
+      background-color: #1b222b;
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(0, 255, 224, 0.1);
+    }
+
+    .cmd-line {
+      font-family: 'Share Tech Mono', monospace;
+      color: #00ffe0;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .blog-entry h3 {
+      color: #00ffe0;
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+    }
+
+    .blog-entry time {
+      font-size: 0.9rem;
+      color: #aaa;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .blog-entry p {
+      font-size: 1rem;
+      color: #d5e1e8;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    code {
+      background-color: rgba(0, 255, 224, 0.08);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      color: #00ffe0;
+    }
+  </style></body>
+</html>

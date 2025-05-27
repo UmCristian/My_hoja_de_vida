@@ -181,6 +181,48 @@ a:hover {
   font-weight: bold;
 }
 
+.blog-entry {
+  background-color: #1b222b;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 255, 224, 0.1);
+}
+
+.blog-entry h3 {
+  color: #00ffe0;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.blog-entry time {
+  font-size: 0.9rem;
+  color: #aaa;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.blog-entry p {
+  font-size: 1rem;
+  color: #d5e1e8;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.cmd-line {
+  font-family: "Share Tech Mono", monospace;
+  color: #00ffe0;
+  margin-bottom: 0.3rem;
+}
+
+code {
+  background-color: rgba(0, 255, 224, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #00ffe0;
+}
+
 .proyecto {
   margin-bottom: 30px;
   transition: transform 0.3s, box-shadow 0.3s;
