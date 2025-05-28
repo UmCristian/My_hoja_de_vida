@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-<<<<<<< HEAD
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -199,8 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section id="contacto" class="section">
       <h2>Contacto</h2>
       <div class="section-content">
-        <p>Email: <a href="mailto:cgsalazar72@gmail.com">cgsalazar72@gmail.com</a></p>
-        <p>Teléfono: +57 310 287 0941</p>
+        <p>Email:cgsalazar72 [at] gmail [dot] com </p>
         <p>Ubicación: Bogotá, Colombia</p>
         <p>GitHub: <a href="https://github.com/UmCristian" target="_blank">github.com/UmCristian</a></p>
       </div>
